@@ -1,6 +1,16 @@
 #include <stdio.h>
-int main()
+/**
+ * main - A program that print a line with puts fnction
+ * 
+ * return: 0 (succes)
+*/
+
+int main(void)
 {
-    printf("sdeuiw");
+    puts("\"Programming is like building a multilingual puzzle");
+
+    return (0);
 }
+
+
 
