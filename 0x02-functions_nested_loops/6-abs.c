@@ -1,4 +1,4 @@
-nam#include "main.h"
+#include "main.h"
 
 /**
  * _abs - check absolute
