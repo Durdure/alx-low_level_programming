@@ -1,7 +1,5 @@
-#ifdef MAIN_H
+#ifndef MAIN_H
 #define MAIN_H
-
-#include <stdio.h>
 
 int _putchar(char c);
 void _puts_recursion(char *s);
@@ -11,10 +9,7 @@ int factorial(int n);
 int _pow_recursion(int x, int y);
 int _sqrt_recursion(int n);
 int is_prime_number(int n);
-int square_root(int i, int c);
-int checker(int i, int c);
 int is_palindrome(char *s);
-void start(char *s, int a, int b, int *flag);
 int wildcmp(char *s1, char *s2);
 
-#endif /*MAIN.H*/
+#endif
